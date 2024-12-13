@@ -3,9 +3,9 @@ import project2 from '../assets/images/projects/prisonbreak.gif';
 import project3 from "../assets/images/projects/helloword.png";
 import project4 from "../assets/images/projects/notion.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = ``;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = ``;
 
 export const EXPERIENCES = [
     {
@@ -57,7 +57,7 @@ export const PROJECTS = [
         title: "Hello World - Recommendation app",
         image: project3,
         description:
-        "An app for traveling. You can add places that sort by city",
+        "An app for traveling. Adding all places in the same city and get notifications when you get closer. Plan your trip ahead.",
         technologies: ["HTML", "CSS", "React Native", "Firebase"],
         link: "https://github.com/tiennhann/HW_Recommendations"
     },
