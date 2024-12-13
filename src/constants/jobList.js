@@ -42,22 +42,22 @@ export const PROJECTS = [
         title: "Brew Hound",
         image: project1,
         description:
-        "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-        technologies: ["HTML", "CSS", "React", "Node.js"],
+        "A website for getting concise and clear information regarding beer. Describing different combinations of food and beer for the best taste experience",
+        technologies: ["HTML", "CSS", "React"],
         link: "https://github.com/tiennhann/brew-hound"
     },
     {
         title: "Prison Break",
         image: project2,
         description:
-        "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+        "Prison Break is a top down dungeon crawler puzzle game where you are a prisoner trying to escape from the prison in Alcatraz Island.",
         technologies: ["Lua"],
     },
     {
         title: "Hello World - Recommendation app",
         image: project3,
         description:
-        "A personal portfolio website showcasing projects, skills, and contact information.",
+        "An app for traveling. You can add places that sort by city",
         technologies: ["HTML", "CSS", "React Native", "Firebase"],
         link: "https://github.com/tiennhann/HW_Recommendations"
     },
@@ -65,8 +65,8 @@ export const PROJECTS = [
         title: "Note Taking",
         image: project4,
         description:
-        "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+        "A platform for note taking, with features like rich text editing, commenting, and user profiles.",
         technologies: ["Next.js", "React", "Convex", "Tailwind"],
         link: "https://github.com/tiennhann/note-taking"
     },
-    ];
+];

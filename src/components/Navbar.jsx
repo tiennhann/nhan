@@ -6,17 +6,17 @@ import { MdEmail } from "react-icons/md";
 
 const Navbar = () => {
     return (
-        <nav className='bg-dark flex items-center justify-between py-4 px-8 md:px-8'>
+        <nav className='sticky top-0 bg-dark z-50 flex items-center justify-between py-4 px-8 md:px-8'>
             <div className='flex items-center'>
                 <a href='#home'>
                     <img className='w-14 h-14 mr-6 rounded-full' src={logo} alt='logo' />
                 </a>
                 
-                <div className='hidden ml-8 md:flex items-center gap-6 text-xl'>
+                <div className=' hidden ml-8 md:flex items-center gap-6 text-xl'>
                     <a href='#home' className='text-white hover:text-cyan-400'>home</a>
                     <a href='#about' className='text-white hover:text-cyan-400'>about</a>
                     <a href='#experience' className='text-white hover:text-cyan-400'>experience</a>
-                    <a href='#project' className='text-white hover:text-cyan-400'>projects</a>
+                    <a href='#projects' className='text-white hover:text-cyan-400'>projects</a>
                 </div>
             </div>
 
